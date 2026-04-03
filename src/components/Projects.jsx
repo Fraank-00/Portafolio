@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
+import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.png";
 
 const Projects = () => {
   const proyectos = [
@@ -29,6 +32,38 @@ const Projects = () => {
       link: "https://dashboard-two-theta-40.vercel.app/",
       imagen: project3,
     },
+
+    {
+      id: 4,
+      titulo: "App de decision",
+      descripcion:
+        "Permite a cada usuario crear decisiones, agregar factores y evaluarlos numéricamente para facilitar la toma de decisiones.",
+      link: "https://decision-app-frontend-h1yo.onrender.com/",
+      imagen: project4,
+    },
+
+
+
+    {
+      id: 5,
+      titulo: " AI Outfit Generator",
+      descripcion:
+        "Aplicación web construida con React + TailwindCSS que permite crear outfits seleccionando prendas o generarlos automáticamente.",
+      link: "https://react-ai-outfit-app.vercel.app/",
+      imagen: project5,
+    },
+
+
+    {
+      id: 6,
+      titulo: " PriceTracker",
+      descripcion:
+        "Aplicación web para el seguimiento de precios de productos en supermercados.",
+      link: "https://price-tracker-zeta-seven.vercel.app/",
+      imagen: project6,
+    },
+   
+
   ];
 
   return (
